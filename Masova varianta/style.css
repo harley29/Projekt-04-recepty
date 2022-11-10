@@ -21,6 +21,7 @@ notebook/pc:
 body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
+    color: white;
 }
 
 .paticka {
@@ -34,7 +35,138 @@ body {
 }
 
 
+
 /* ------------------------------- */
 /* ----- DOLE BUDE TVOJE CSS ----- */
 /* ------------------------------- */
 
+
+.recept-meta{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+        }
+     
+
+.recept-kategorie{
+    text-align: left;
+    margin-top: 3%;
+    margin-left: 3%;
+}    
+.recept-nazev{
+    text-align: left;
+    margin-bottom: 3%;
+    margin-left: 3%;
+} 
+.recept-komentare{
+    text-align: end;
+    margin-right: 3%;
+}
+
+.hlavni-recept{
+background: url("images/burger.jpg");
+background-size: cover;
+width: 100vw;
+height: 16.666vh;
+
+  
+}
+.recept2{
+    
+    background: url("images/sushi.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 16.666vh;
+}
+.recept3{
+    background: url("images/kure.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 16.666vh;
+    
+}
+.recept4{
+    background: url("images/rajcata.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 16.666vh;
+    
+}
+.recept5{
+    background: url("images/grilovani.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 16.666vh;
+   }
+
+
+
+
+@media (max-width: 540px) {
+.doporucujeme{
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+.hlavni-recept{
+    min-height: 200px;
+    width: 100vw;
+}
+.recept2,
+.recept3,
+.recept4
+.recept5{
+        padding: 10px;
+        min-height: 90px;
+    }
+    
+}
+
+
+/*---sekce mobil----*/
+
+@media (max-width: 960px) {
+    .doporucujeme{
+        display: flex;
+        flex-wrap: wrap;
+           
+    }
+ 
+    .hlavni-recept{
+        min-height: 250px;
+    }
+    .recept2,
+    .recept3,
+    .recept4
+    .recept5{
+        padding: 20px;
+        min-height: 150px;
+    }
+    
+    }
+
+    /*---sekce tablet---*/
+
+    @media (min-width: 960px) {
+        .doporucujeme{
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+      
+        .hlavni-recept{
+            min-height: 400px;
+            background-image: url(images/burger.jpg);
+        }
+
+    .recept2,
+    .recept3,
+    .recept4
+    .recept5{
+        padding: 20px;
+        min-height: 200px;
+    }
+    
+        
+        }
+/*-----sekce pc---*/
