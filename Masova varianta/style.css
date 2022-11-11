@@ -41,33 +41,33 @@ body {
 /* ------------------------------- */
 
 
-.recept-meta{
+/*.recept-meta{
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-        }
+        }*/
      
 
-.recept-kategorie{
+/*.recept-kategorie{
     text-align: left;
     margin-top: 3%;
     margin-left: 3%;
-}    
-.recept-nazev{
+}    */
+/*.recept-nazev{
     text-align: left;
     margin-bottom: 3%;
     margin-left: 3%;
-} 
+} */
 .recept-komentare{
     text-align: end;
     margin-right: 3%;
 }
 
 .hlavni-recept{
-background: url("images/burger.jpg");
-background-size: cover;
-width: 100vw;
-height: 16.666vh;
+    background: url("images/burger.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 16.666vh;
 
   
 }
@@ -109,13 +109,18 @@ height: 16.666vh;
     }
 
 .hlavni-recept{
+    padding: 10px;
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
     min-height: 200px;
     width: 100vw;
 }
 .recept2,
 .recept3,
-.recept4
+.recept4,
 .recept5{
+        margin: 1px;
         padding: 10px;
         min-height: 90px;
     }
@@ -133,12 +138,17 @@ height: 16.666vh;
     }
  
     .hlavni-recept{
+        padding: 20px;
+        margin-top: 1px;
+        margin-left: 1px;
+        margin-right: 1px;
         min-height: 250px;
     }
     .recept2,
     .recept3,
-    .recept4
+    .recept4,
     .recept5{
+        margin: 1px;
         padding: 20px;
         min-height: 150px;
     }
@@ -155,18 +165,22 @@ height: 16.666vh;
         }
       
         .hlavni-recept{
+            padding: 20px;
+            margin-top: 1px;
+            margin-left: 1px;
+            margin-right: 1px;
             min-height: 400px;
-            background-image: url(images/burger.jpg);
+          
         }
 
     .recept2,
     .recept3,
-    .recept4
+    .recept4,
     .recept5{
+        margin: 1px;
         padding: 20px;
         min-height: 200px;
     }
-    
         
         }
 /*-----sekce pc---*/
