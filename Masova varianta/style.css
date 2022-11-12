@@ -39,12 +39,23 @@ body {
 /* ------------------------------- */
 /* ----- DOLE BUDE TVOJE CSS ----- */
 /* ------------------------------- */
-
+.recept-meta{
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+}
+.recept-nazev{
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20%;
+}
 
 .hlavni-recept{
     background: url("images/burger.jpg");
     background-size: cover;
     background-position: center;
+    padding: 20px;
 
   
 }
@@ -90,7 +101,13 @@ body {
         flex-direction: column;
         width: 100%;
     }
-
+ .recept-velky{
+    font-size: 28px;
+    margin-top: 45%;
+ } 
+.recept-nazev{
+    font-size: 18px;
+}
 .hlavni-recept{
     padding: 10px;
     margin-top: 1px;
@@ -98,6 +115,7 @@ body {
     margin-right: 1px;
     min-height: 200px;
     width: 100vw;
+    
 }
 
 .recept2,
@@ -131,6 +149,15 @@ body {
         flex-wrap: wrap;
                            
     }
+.recept-velky{
+    font-size: 36px;
+    margin-top: 20%;
+}
+.recept-nazev{
+    font-size: 22px;
+}
+    
+
     .recept2,
     .recept3,
     .recept4,
@@ -149,7 +176,7 @@ body {
 
     /*---konec sekce tablet---*/
 
-    @media (min-width: 960px) {
+    @media (min-width: 961px) {
        .doporucujeme{
             display: flex;
             flex-wrap: wrap;
@@ -162,7 +189,8 @@ body {
             flex-grow: 1;
             flex-basis: 50%;
         }
-      
+
+        .
         .hlavni-recept{
             width: 35%;
             padding: 20px;
@@ -171,6 +199,14 @@ body {
             margin-right: 1px;
             min-height: 400px;
           
+        }
+        .recept-velky{
+            font-size: 48px;
+            margin-top: 55%;
+            width: 70%;
+        }
+        .recept-nazev{
+            font-size: 28px;
         }
 
         .recept2,
