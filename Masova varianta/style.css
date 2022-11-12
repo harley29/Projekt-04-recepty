@@ -48,7 +48,7 @@ body {
 .recept-nazev{
     font-weight: 800;
     font-family: 'Raleway', sans-serif;
-    margin-top: 20%;
+    margin-top: 30%;
 }
 
 .hlavni-recept{
@@ -202,7 +202,7 @@ body {
         }
         .recept-velky{
             font-size: 48px;
-            margin-top: 55%;
+            margin-top: 80%;
             width: 70%;
         }
         .recept-nazev{
