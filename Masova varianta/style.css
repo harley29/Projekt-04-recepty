@@ -41,33 +41,11 @@ body {
 /* ------------------------------- */
 
 
-/*.recept-meta{
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-        }*/
-     
-
-/*.recept-kategorie{
-    text-align: left;
-    margin-top: 3%;
-    margin-left: 3%;
-}    */
-/*.recept-nazev{
-    text-align: left;
-    margin-bottom: 3%;
-    margin-left: 3%;
-} */
-.recept-komentare{
-    text-align: end;
-    margin-right: 3%;
-}
-
 .hlavni-recept{
     background: url("images/burger.jpg");
     background-size: cover;
-    width: 100vw;
-    height: 16.666vh;
+   /* width: 100vw;
+    height: 16.666vh;*/
 
   
 }
@@ -75,28 +53,28 @@ body {
     
     background: url("images/sushi.jpg");
     background-size: cover;
-    width: 100vw;
-    height: 16.666vh;
+   /* width: 100vw;
+    height: 16.666vh;*/
 }
 .recept3{
     background: url("images/kure.jpg");
     background-size: cover;
-    width: 100vw;
-    height: 16.666vh;
+   /* width: 100vw;
+    height: 16.666vh;*/
     
 }
 .recept4{
     background: url("images/rajcata.jpg");
     background-size: cover;
-    width: 100vw;
-    height: 16.666vh;
+  /*  width: 100vw;
+    height: 16.666vh;*/
     
 }
 .recept5{
     background: url("images/grilovani.jpg");
     background-size: cover;
-    width: 100vw;
-    height: 16.666vh;
+   /* width: 100vw;
+    height: 16.666vh;*/
    }
 
 
@@ -106,6 +84,7 @@ body {
 .doporucujeme{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     }
 
 .hlavni-recept{
@@ -116,6 +95,7 @@ body {
     min-height: 200px;
     width: 100vw;
 }
+
 .recept2,
 .recept3,
 .recept4,
@@ -124,6 +104,7 @@ body {
         padding: 10px;
         min-height: 90px;
     }
+   
     
 }
 
@@ -134,23 +115,40 @@ body {
     .doporucujeme{
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
            
+    }
+    .recepty{
+        display: flex;
+        flex-wrap: wrap;
     }
  
     .hlavni-recept{
+        width: 100%;
         padding: 20px;
         margin-top: 1px;
         margin-left: 1px;
         margin-right: 1px;
         min-height: 250px;
+      
+    }
+    .recepty{
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1 1 50%;
+        
+
+       
     }
     .recept2,
     .recept3,
     .recept4,
     .recept5{
+        
         margin: 1px;
         padding: 20px;
         min-height: 150px;
+     
     }
     
     }
@@ -166,7 +164,7 @@ body {
       
         .hlavni-recept{
             padding: 20px;
-            margin-top: 1px;
+            margin-top: 2px;
             margin-left: 1px;
             margin-right: 1px;
             min-height: 400px;
