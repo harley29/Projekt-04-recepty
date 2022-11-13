@@ -91,9 +91,9 @@ body {
 
 
 @media (max-width: 540px) {
-.doporucujeme{
-    display: flex;
-    flex-wrap: wrap;
+   .doporucujeme{
+        display: flex;
+        flex-wrap: wrap;
    
     }
     .recepty{
@@ -101,14 +101,17 @@ body {
         flex-direction: column;
         width: 100%;
     }
- .recept-velky{
-    font-size: 28px;
-    margin-top: 45%;
+    .recept-velky{
+        font-size: 28px;
+        margin-top: 45%;
  } 
-.recept-nazev{
-    font-size: 18px;
+    .recept-nazev{
+
+      font-size: 18px;
+    
+
 }
-.hlavni-recept{
+   .hlavni-recept{
     padding: 10px;
     margin-top: 1px;
     margin-left: 1px;
@@ -118,10 +121,10 @@ body {
     
 }
 
-.recept2,
-.recept3,
-.recept4,
-.recept5{
+     .recept2,
+     .recept3,
+     .recept4,
+     .recept5{
         margin: 1px;
         padding: 10px;
         min-height: 90px;
@@ -149,13 +152,13 @@ body {
         flex-wrap: wrap;
                            
     }
-.recept-velky{
-    font-size: 36px;
-    margin-top: 20%;
-}
-.recept-nazev{
-    font-size: 22px;
-}
+    .recept-velky{
+       font-size: 36px;
+       margin-top: 20%;
+    }
+    .recept-nazev{
+        font-size: 22px;
+    }
     
 
     .recept2,
